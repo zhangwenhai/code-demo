@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TAB_Demo</string>
+
+    <!-- pull to refresh -->
+    <string name="pull_to_refresh_from_top_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_from_top_release_label">Release to refresh…</string>
+    <string name="pull_to_refresh_from_top_refreshing_label">Loading…</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_from_bottom_release_label">Release to refresh…</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">Loading…</string>
+
+    <!-- dialog -->
+    <string name="dialog_loading">Loading…</string>
+    <string name="dialog_prompt">提示</string>
+    <string name="dialog_btn_ok">确定</string>
+    <string name="dialog_btn_cancel">取消</string>
+    <string name="dialog_text">text</string>
+    <string name="dialog_percentum">42%</string>
+
+    <!-- MainTab页面 -->
+    <string name="tab_fragment_title_not_login">Login</string>
+    <string name="tab_fragment_content_not_login">to check the activity.</string>
+    <string name="tab_fragment_home">首页</string>
+    <string name="tab_fragment_wiki">百科</string>
+    <string name="tab_fragment_deal">订单</string>
+    <string name="tab_fragment_profile">我的</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

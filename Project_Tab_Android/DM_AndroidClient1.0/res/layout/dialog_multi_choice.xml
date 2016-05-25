@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.ui.basic.dialog.CheckableItem xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_dialog_selector"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="57.3dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:minHeight="40dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/item_text"
+            style="@style/dialog_list_item_title_style"
+            tools:ignore="SelectableText" />
+
+        <TextView
+            android:id="@+id/item_sub_text"
+            style="@style/dialog_list_item_sub_title_style"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <CheckedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="13.3dip"
+        android:checkMark="@drawable/btn_dialog_choice_indicator"
+        android:gravity="center_vertical" />
+
+</com.android.ui.basic.dialog.CheckableItem>

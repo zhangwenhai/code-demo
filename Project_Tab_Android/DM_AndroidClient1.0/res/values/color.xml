@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- *********字体颜色定义********** -->
+    <!-- 内容主色 黑色 -->
+    <color name="font_color_black">#4a535a</color>
+    <!-- 附加信息色 灰色 -->
+    <color name="font_color_gray">#9aa6b0</color>
+    <!-- 警示色 红色 -->
+    <color name="font_color_red">#ff2237</color>
+    <!-- 醒目色 绿色 -->
+    <color name="font_color_green">#3cb7a1</color>
+    <!-- 标题色 -->
+    <color name="font_color_white">#ffffff</color>
+    <!-- 按钮文字色 深灰色 -->
+    <color name="font_color_dark_gray">#737d86</color>
+    <!-- 输入提示色 浅灰色 -->
+    <color name="font_color_light_gray">#c4ced6</color>
+
+    <!-- *********背景颜色定义********** -->
+    <!-- 白色背景 -->
+    <color name="bg_color_white">#ffffff</color>
+    <!-- 黑色背景 -->
+    <color name="bg_color_black">#000000</color>
+    <!-- 灰色背景 -->
+    <color name="bg_color_gray">#B7B7B7</color>
+    <!-- 深灰色背景 -->
+    <color name="bg_color_dark_gray">#6F6F6F</color>
+    <!-- 视图背景颜色 -->
+    <color name="bg_color_view">#EAEFF5</color>
+    <!-- 青色背景 -->
+    <color name="bg_list_color">#EAEFF5</color>
+    <!-- 系统消息未读时的颜色值 -->
+    <color name="bg_color_sysmsg_unread">#E9FFE8</color>
+    <color name="bg_color_list_pressed">#ECF1F4</color>
+
+    <!-- Dialog控件 颜色值 -->
+    <color name="dialog_color_holo">#33b5e5</color>
+    <color name="dialog_color_divider">#25ffffff</color>
+
+</resources>

@@ -1,0 +1,155 @@
+<resources>
+
+    <!-- 去掉系统状态栏阴影 -->
+    <style name="Theme.IOSched" parent="android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationStyle</item>
+    </style>
+    <!-- 跳转动画 -->
+    <style name="WindowAnimationStyle">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_to_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_from_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_to_right</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+
+    <style name="WindowAnimationStyle2">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_bottom</item>
+        <item name="android:activityOpenExitAnimation">@anim/vertical_static</item>
+        <item name="android:activityCloseEnterAnimation">@anim/vertical_static</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_to_bottom</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+
+    <style name="Theme.IOSched2" parent="android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationStyle2</item>
+    </style>
+
+    <style name="ApplicationStartStyle" parent="android:style/Theme.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationStyle</item>
+        <item name="android:windowBackground">@drawable/bg_main</item>
+    </style>
+
+    <!-- 自定义dialog -->
+    <style name="Translucent_NoTitle" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!-- Dialog button -->
+    <style name="dialog_button_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_dialog_selector</item>
+    </style>
+
+    <!-- Dialog message text -->
+    <style name="dialog_message_text_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_color_black</item>
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:paddingTop">13.3dip</item>
+        <item name="android:paddingLeft">13.3dip</item>
+        <item name="android:paddingRight">13.3dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">13.3dip</item>
+    </style>
+
+    <!-- Dialog title -->
+    <style name="dialog_title_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_color_black</item>
+        <item name="android:textSize">@dimen/font_size_large</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Dialog checkbox -->
+    <style name="dialog_checkbox_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginLeft">13.3dip</item>
+        <item name="android:layout_marginRight">13.3dip</item>
+        <item name="android:paddingLeft">25dip</item>
+        <item name="android:gravity">top</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Dialog list item title -->
+    <style name="dialog_list_item_title_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dialog_list_item_text_selector</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">13.3dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <!-- Dialog list item sub title -->
+    <style name="dialog_list_item_sub_title_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">13.3dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+
+    <!-- Dialog animation bottom  style -->
+    <style name="dialog_anima_from_bottom_style" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/slide_in_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/slide_out_to_bottom</item>
+    </style>
+
+    <!-- Dialog animation top style -->
+    <style name="dialog_anima_from_top_style" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/slide_in_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/slide_out_to_top</item>
+    </style>
+
+    <!-- 标题栏 文本框的文本样式 -->
+    <style name="titlebar_textview_text">
+        <item name="android:textSize">@dimen/font_size_xlarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/font_color_white</item>
+    </style>
+
+</resources>

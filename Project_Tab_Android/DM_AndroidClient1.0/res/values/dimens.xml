@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- PullToRefresh -->
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+
+    <!-- 间距 -->
+    <dimen name="margin_small">7dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_large">17dp</dimen>
+    <dimen name="margin_xlarge">23dp</dimen>
+    <dimen name="margin_xxlarge">27dp</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_medium">13sp</dimen>
+    <dimen name="font_size_large">15sp</dimen>
+    <dimen name="font_size_xlarge">24sp</dimen>
+    <dimen name="font_size_xxlarge">39sp</dimen>
+
+    <!-- 分割线大小 -->
+    <dimen name="line_size">0.5dp</dimen>
+
+    <!-- TitleBar -->
+    <dimen name="title_bar_height">48dip</dimen>
+
+</resources>
